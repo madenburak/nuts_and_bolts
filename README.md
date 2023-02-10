@@ -2,7 +2,8 @@
 
 ## Create Python Virtual Environment
 
-    I suggest create new python virtual environment and work in it's to you. Installiations can disorder your python packages.
+    I suggest create new python virtual environment and work in it's to you. Installiations can 
+    disorder your python packages.
 
     For create:
     `python -m venv new_env`
@@ -12,7 +13,8 @@
 
 ## Data Preparing
 
-    There are labels as coco json format on our hands. For YOLO training, we must convert it to yolo format. We can use `dataset_manager.py` for this operation. The python file provides some convenience to us.
+    There are labels as coco json format on our hands. For YOLO training, we must convert it to yolo format.
+    We can use `dataset_manager.py` for this operation. The python file provides some convenience to us.
 
     * Convert COCO to YOLO format
     * Counting the number of labels for each class
@@ -22,7 +24,10 @@
 
 ## Detection and Tracking
 
-    You can follow the `detect_and_track.ipynb` file for training for detection and adding track feature on structure.
+    You can follow the `detect_and_track.ipynb` file for training for detection and adding track feature 
+    on structure.
 
 
-![](.\images\result.gif) 
+![](https://github.com/madenburak/nuts_and_bolts/blob/main/images/result.gif) 
+
+You can access models and ouput videos with this [Link](https://drive.google.com/drive/folders/1rQ-lU7eH1uT2kFLPaPN4GIX75zi_GnWQ?usp=sharing)
